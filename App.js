@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 
 const heading  = React.createElement("h1", {id:"heading"} , "Hello Form React World" );
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // render the root
