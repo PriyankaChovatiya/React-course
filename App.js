@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-const title = <h1 id="heading" className="heading">Hello Priyaa!</h1>
+const head = <span>React Message</span>
+
+const title = (<h1 id="heading" className="heading">{head}Hello Priyaa!</h1> );
 
 //Component Composition
 const HeadingComponent = () => (
