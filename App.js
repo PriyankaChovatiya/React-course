@@ -11,14 +11,22 @@ const HeadingComponent = () => (
   <h1 id = "heading" className = "heading">
     Welcome To React Class
   </h1>
-  <Title/> 
   </div>
 );
+
+const Display = () =>
+  <div id= "Container2">
+    <HeadingComponent/>
+    <Title/>
+       <p>  
+        Hello, I'm Priyaa Today I'm Explaining the Component Composition. Component Composition : It means you are calling one components in another copmponent.
+        </p>
+  </div>
+
 
 // create Root 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
 //render component
-root.render(<HeadingComponent/>);
+root.render(<Display/>);
 
