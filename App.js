@@ -6,16 +6,16 @@ import ReactDOM from 'react-dom';
 const heading  = React.createElement("h1", {id:"heading"} , "Hello Form React World" );
 
 //JSX - (Transpiled before it reaches the JS) - PARCEL - BABEL
-//JSX => React.createElement =>React Element => Js object => HTMLElement
+//JSX => Babel Transplied it to React.createElement =>React Element => Js object => HTMLElement(render)
 
 //Single line JSX
 const jsxheading  = <h1 id = "heading">Welcome to the React Course</h1>;
 
 //Multi line JSX
 const jsxheading2 = (
-<h1 id ="heading">
-   Welcome To React Class
-</h1>
+  <h1 id ="heading">
+    Welcome To React Class
+  </h1>
 );
 
 
