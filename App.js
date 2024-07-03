@@ -18,6 +18,11 @@ const jsxheading2 = (
   </h1>
 );
 
+//Add the Attributes in element in camelCase  -  class => className
+const jsxheading3 = (
+  <h1 id="heading" className="heading3">Hello</h1>
+);
+
 
 // create Root 
 const root = ReactDOM.createRoot(document.getElementById("root"));
