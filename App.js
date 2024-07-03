@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 
 //React Element 
-const heading = React.createElement("h1" , {id:"heading" , className:"heading"}, " hello ");
+const heading = <h1 id="heading" className="heading"></h1>
 
 //Functional component
-const HeadingCompont = () => (
+const HeadingComponent = () => (
 <div id=" Container">
   <h1 id = "heading" className = "heading">
     Welcome To React Class
@@ -17,5 +17,8 @@ const HeadingCompont = () => (
 // create Root 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// render the root
+// render an element
 root.render(heading);
+
+//render component
+root.render(<HeadingComponent/>);
